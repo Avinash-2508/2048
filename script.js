@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
             squares.push(square)
         }
         generateTwo()
-        generateTwo(
+        generateTwo()
     }
     createBoard()
 
