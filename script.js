@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const scoreDisplay = document.getElementById('score')
     
     let squares = []
-    let score = 0
+    let score = 
 
     function createBoard() {
         for (let i=0; i< 16; i++){
