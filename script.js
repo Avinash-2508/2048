@@ -191,7 +191,7 @@ document.addEventListener('DOMContentLoaded', () => {
         moveUp()
         sumColumn()
         moveUp()
-        generateTwo(
+        generateTwo()
     }
 
     function checkWin(){
