@@ -26,7 +26,6 @@ document.addEventListener('DOMContentLoaded', () => {
         else generateTwo()
     }
 
-    //swipe right
     function moveRight(){
         for (let i = 0; i<16; i++){
             if(i%4 == 0 ){ 
