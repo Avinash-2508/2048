@@ -160,7 +160,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.addEventListener('keyup',control)
 
     function keyRight(){
-        moveRight() //move all to right
+        moveRight()
         sumRow() //combine neighbour if same number
         moveRight() //move all to right again
         generateTwo() //generate new numbers
