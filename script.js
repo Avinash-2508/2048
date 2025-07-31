@@ -145,7 +145,6 @@ document.addEventListener('DOMContentLoaded', () => {
         checkWin()
     }
 
-    //Assign keys
     function control(event){
         if(event.keyCode === 39){
             keyRight()
