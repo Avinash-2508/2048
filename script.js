@@ -112,7 +112,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function moveUp(){
-        //get column
         for(let i=0; i<4; i++){
             let totalOne = parseInt(squares[i].innerHTML)
             let totalTwo = parseInt(squares[i+4].innerHTML)
