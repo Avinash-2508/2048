@@ -163,7 +163,7 @@ document.addEventListener('DOMContentLoaded', () => {
         moveRight()
         sumRow() 
         moveRight()
-        generateTwo() //generate new numbers
+        generateTwo() 
     }
 
     function keyLeft(){
