@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', () => {
  
     function moveLeft(){
         for (let i = 0; i<16; i++){
-            if(i%4 == 0 ){ //first column
+            if(i%4 == 0 ){ 
                 let totalOne = parseInt(squares[i].innerHTML)
                 let totalTwo = parseInt(squares[i+1].innerHTML)
                 let totalThree = parseInt(squares[i+2].innerHTML)
