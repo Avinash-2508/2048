@@ -162,7 +162,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function keyRight(){
         moveRight()
         sumRow() 
-        moveRight() //move all to right again
+        moveRight()
         generateTwo() //generate new numbers
     }
 
