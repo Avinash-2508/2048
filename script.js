@@ -69,7 +69,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 let newRow = filteredRow.concat(zeros)
                 
 
-                //insert new row into the squares
                 squares[i].innerHTML = newRow[0]
                 squares[i+1].innerHTML = newRow[1]
                 squares[i+2].innerHTML = newRow[2]
