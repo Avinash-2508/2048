@@ -54,7 +54,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
  
-    //swipe left
     function moveLeft(){
         for (let i = 0; i<16; i++){
             if(i%4 == 0 ){ //first column
