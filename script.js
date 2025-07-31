@@ -78,7 +78,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     
     function sumRow(){
-        for (let i=0; i <15; i++){ //end before index 15 because is has no "right neighbour"
+        for (let i=0; i <15; i++){
             if(squares[i].innerHTML == squares[i+1].innerHTML){
                 let combineNum = parseInt(squares[i].innerHTML) + parseInt(squares[i+1].innerHTML)
                 squares[i].innerHTML = combineNum
