@@ -161,7 +161,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function keyRight(){
         moveRight()
-        sumRow() //combine neighbour if same number
+        sumRow() 
         moveRight() //move all to right again
         generateTwo() //generate new numbers
     }
